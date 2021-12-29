@@ -1,0 +1,57 @@
+.container {
+  margin: 20px 0px 20px 0px;
+}
+
+.title {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.listWrapper {
+  width: 70%;
+  margin: 50px 0 0 25px;
+}
+
+.addButton {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.addTitle {
+  margin-left: 10px;
+  font-size: 20;
+  font-weight: bold;
+}
+
+.todoItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.todoInfo {
+  display: flex;
+  width: 100%;
+}
+
+.checkboxContainer {
+  margin-right: 10px;
+}
+
+.input {
+  border-width: 0;
+  width: 100%;
+}
+
+.index {
+  margin-right: 10px;
+}
+
+.addButton:hover {
+  background-color: #dcdada;
+}
